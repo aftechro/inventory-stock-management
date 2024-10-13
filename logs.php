@@ -169,7 +169,7 @@ $totalProductPages = ceil($totalProductLogs / $limit);
     </style>
 </head>
 <body>
-    <?php require 'nav.php'; require 'header.php'; ?>
+    <?php require 'header.php'; require 'nav.php';  ?>
 
     <div class="container mt-5">
         <h2 class="mb-4">Change Logs</h2>
