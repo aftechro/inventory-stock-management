@@ -20,7 +20,7 @@ A comprehensive stock management solution that allows users to efficiently manag
 | ![image](https://github.com/user-attachments/assets/b3e9e86c-743e-4741-9590-31217e0512d3) |
 |:---:|
 
-| **Stock removals/additions logs**: See who add/removed the stock |
+| **Stock removals/additions logs**: See who added/removed the stock |
 | ![image](https://github.com/user-attachments/assets/a39a8691-c58f-4479-8e54-b683bf4db7d1) |
 |:---:|
 
