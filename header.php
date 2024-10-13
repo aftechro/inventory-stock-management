@@ -113,21 +113,25 @@
             text-align: left; /* Left aligned text in body */
         }
 
-        /* Go to Top Button Styles */
-        #goTopBtn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: none; /* Initially hidden */
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 50%;
-            padding: 10px;
-            font-size: 18px;
-            cursor: pointer;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-        }
+/* Go to Top Button Styles */
+#goTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Initially hidden */
+    background-color: #343a40; /* Dark grey background */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Slightly rounded corners */
+    width: 60px; /* Width of the square */
+    height: 60px; /* Height of the square */
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center; /* Center the icon horizontally */
+    line-height: 60px; /* Center the icon vertically */
+    font-size: 28px; /* Increase the icon size */
+}
+
     </style>
 </head>
 <body>
