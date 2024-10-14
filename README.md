@@ -19,7 +19,7 @@ A comprehensive stock management solution that allows users to efficiently manag
 | ![image](https://github.com/user-attachments/assets/a59f5dcb-6499-42f0-8bdd-fc1bc3e6ff8c) |
 |:---:|
 
-| **Live Inventory Tracking**: Monitor inventory changes in real-time, ensuring accurate stock levels at all times. |
+| **Live Inventory Tracking**: Monitor inventory changes in real-time, ensuring accurate stock levels at all times. Click on QR code from desktop or scan the QR code with mobile camera to see and update stock. |
 | ![image](https://github.com/user-attachments/assets/b3e9e86c-743e-4741-9590-31217e0512d3) |
 |:---:|
 
