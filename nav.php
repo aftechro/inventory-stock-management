@@ -8,7 +8,7 @@ $username = htmlspecialchars($_SESSION['username']);
     <div class="container">
         <!-- Branding with logo -->
         <a class="navbar-brand fw-bold" href="dashboard.php">
-            <i class="fas fa-warehouse me-2"></i> CK Stock
+            <i class="fas fa-warehouse me-2"></i> AFTECH Stock
         </a>
 
         <!-- Mobile Toggler -->
