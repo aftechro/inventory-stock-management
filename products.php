@@ -311,7 +311,7 @@ while ($vendor = $vendors->fetch_assoc()) {
             <?php while ($product = $products->fetch_assoc()): ?>
             <tr>
                 <td><?= html_entity_decode($product['name']) ?></td>
-                <td><?= html_entity_decode($product['description']) ?><?= htmlspecialchars($product['description']) ?></td>
+                <td><?= html_entity_decode($product['description']) ?></td>
                 <td><?= htmlspecialchars($product['buying_price']) ?> €</td>
                 <td><?= htmlspecialchars($product['selling_price']) ?> €</td>
                 <td><?= htmlspecialchars($product['quantity']) ?></td>
