@@ -50,6 +50,8 @@ A comprehensive stock management solution that allows users to efficiently manag
 1. **Set Up Database**:
    - Create the SQL tables as shown in the `stock-db.sql` file.
    - Add your first user via phpMyAdmin, ensuring that the password type is set using the `password_hash()` PHP function (select the password hashing option in phpMyAdmin when inserting new user data).
+   - ![image](https://github.com/user-attachments/assets/09aa1dda-35f8-412c-aca7-f72ec595a315)
+
 
 2. **Upload Files**:
    - Add your application files to your web server’s directory (e.g., `www/html`).
