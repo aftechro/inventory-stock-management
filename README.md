@@ -1,3 +1,6 @@
+ **NOTE** - Still working on few bits to make it better, as time permits, but keep an eye on it!
+
+
 # Stock Management System
 
 A comprehensive stock management solution that allows users to efficiently manage inventory, add products, and monitor stock levels in real-time. This application enables scanning QR codes with a mobile camera for quick access to product details, making inventory management easier and more effective.
