@@ -1,37 +1,12 @@
  **NOTE** - Still working on few bits to make it better, as time permits, but keep an eye on it!
 
 
+![ezgif-6-8538a8bec1](https://github.com/user-attachments/assets/009987c0-a9e1-499d-839c-2065adb518e5)
+
+
 # Stock Management System
 
 A comprehensive stock management solution that allows users to efficiently manage inventory, add products, and monitor stock levels in real-time. This application enables scanning QR codes with a mobile camera for quick access to product details, making inventory management easier and more effective.
-
-## Screenshots
-| **Stock overview**: Dashboard showing quick stats of the stock. |
-| ![image](https://github.com/user-attachments/assets/a857e246-6526-44e4-be50-a3389d53b112)|
-|:---:|
-
-
-| **Add and manage products as admin**: Easily add products or import from CSV file. |
-| ![image](https://github.com/user-attachments/assets/244277f6-9c41-407c-85ba-de0bdb5f4d52) |
-|:---:|
-
-| **Scanning QR Codes**: Keep the stock updates, scan the QR Codes. |
-| ![image](https://github.com/user-attachments/assets/a59f5dcb-6499-42f0-8bdd-fc1bc3e6ff8c) |
-|:---:|
-
-| **Live Inventory Tracking**: Monitor inventory changes in real-time, ensuring accurate stock levels at all times. Click on QR code from desktop or scan the QR code with mobile camera to see and update stock. |
-| ![image](https://github.com/user-attachments/assets/b3e9e86c-743e-4741-9590-31217e0512d3) |
-|:---:|
-
-| **Stock removals/additions logs**: See who added/removed the stock |
-| ![image](https://github.com/user-attachments/assets/a39a8691-c58f-4479-8e54-b683bf4db7d1) |
-|:---:|
-
-| **Create quote**: Create quotes based on the product list and quanitity available|
-| ![image](https://github.com/user-attachments/assets/9a13733c-b3e7-406c-9a4b-0fc9db29e6c9) |
-|:---:|
-
-
 
 
 ## Features
