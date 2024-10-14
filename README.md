@@ -27,6 +27,12 @@ A comprehensive stock management solution that allows users to efficiently manag
 | ![image](https://github.com/user-attachments/assets/a39a8691-c58f-4479-8e54-b683bf4db7d1) |
 |:---:|
 
+| **Create quote**: Create quotes based on the product list and quanitity available|
+| ![image](https://github.com/user-attachments/assets/9a13733c-b3e7-406c-9a4b-0fc9db29e6c9) |
+|:---:|
+
+
+
 
 ## Features
 
@@ -69,6 +75,9 @@ A comprehensive stock management solution that allows users to efficiently manag
 
 4. **Generate QR Codes**:
    - Click on the stock section to generate QR codes. A folder named `uploads/qr` will be created to store these codes.
+   - 
+5. **Generate QR Codes**:
+   - go to yourdomain.com/app/quote.php to create quotes based on your product list and quantity available
 
 ## Conclusion
 
