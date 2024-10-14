@@ -76,14 +76,15 @@ Feel free to customize this further or let me know if you need any additional ch
 <table>
   <tr>
     <td>
-      <a href="https://www.paypal.com/donate/your-donation-link">
-        <img src="https://github.com/user-attachments/assets/9db1cd61-7127-40e1-87ec-845cdb241870" alt="Donate via PayPal" width="150"/>
+      <a href="https://paypal.me/aftechro?country.x=IE&locale.x=en_US">
+        <img src="https://github.com/user-attachments/assets/f3582f15-36b3-4e05-bfbf-93275cfcc6ec" alt="Donate via PayPal" width="300"/>
       </a>
     </td>
-    <td style="padding-left: 10px;">
-      If you find this project useful and would like to show your appreciation, consider making a donation via PayPal. Your contributions help improve the project and keep it running.  
+    <td style="padding-left: 20px;">
+      If you find this project useful and would like to show your appreciation, consider making a donation via PayPal, Click on the Paypal logo. Your contributions help improve the project and keep it running.  
       <br><br>
       <strong>Thank you!</strong> Your support means a lot and encourages further development!
     </td>
   </tr>
 </table>
+
