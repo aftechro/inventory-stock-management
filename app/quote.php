@@ -31,7 +31,7 @@ if (isset($_GET['query'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create a Quote</title>
-    <link rel="stylesheet" href="../assets//css/bootstrap5.3.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap5.3.min.css">
     <script src="../assets/js/jquery-3.6.0.min.js"></script>
 </head>
 <body>
