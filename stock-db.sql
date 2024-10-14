@@ -59,44 +59,6 @@ CREATE TABLE `categories` (
 -- Dumping data for table `categories`
 --
 
-INSERT INTO `categories` (`id`, `name`) VALUES
-(1, 'Storage'),
-(2, 'Network switch'),
-(3, 'Access Point'),
-(4, 'Adapter'),
-(5, 'Adapter'),
-(6, 'Cable'),
-(7, 'Cat5'),
-(8, 'Charger'),
-(9, 'Courier'),
-(10, 'Desktop'),
-(11, 'Docking Station'),
-(12, 'Domain'),
-(13, 'Firewall'),
-(14, 'Harddrive'),
-(15, 'Hosting'),
-(16, 'Keyboard'),
-(17, 'Label Printer'),
-(18, 'Laptop'),
-(19, 'Misc'),
-(20, 'Monitor Cables'),
-(21, 'Monitor Accessory'),
-(22, 'Network Cables'),
-(23, 'Printer'),
-(24, 'Server HDD'),
-(26, 'Trackpad'),
-(27, 'Cat6'),
-(28, 'License'),
-(29, 'Monitor'),
-(30, 'Network Convertor'),
-(31, 'NAS'),
-(32, 'Software'),
-(33, 'IP Phone'),
-(34, 'Webcam'),
-(35, 'Headset'),
-(36, 'Job'),
-(37, 'PoE Adapter'),
-(38, 'Microsoft License');
 
 -- --------------------------------------------------------
 
@@ -133,9 +95,7 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `username`, `password`, `role`) VALUES
-(1, 'admin', '$2y$10$UCRCHBU.cIB8zvYV4oa7puB2DCqUnbNIEPxfmM5tzTHaVixL.EFF6', 'admin'),
-(2, 'andrei', '$2y$10$lqfTbx4R7eBlmHi55xmoW.w4YmQuQfMu3LZvLyU7dYOp/jA0gYuc.', 'agent');
+
 
 -- --------------------------------------------------------
 
@@ -152,19 +112,6 @@ CREATE TABLE `vendors` (
 -- Dumping data for table `vendors`
 --
 
-INSERT INTO `vendors` (`id`, `name`) VALUES
-(3, 'Dean Computer'),
-(4, 'TD Synnex'),
-(5, 'Amazon'),
-(6, 'Woodcomm'),
-(7, 'Exertis'),
-(8, 'EET'),
-(9, 'Dell'),
-(10, 'ASAP'),
-(11, 'IP Telecom'),
-(12, 'MWH'),
-(13, 'Netaraxy'),
-(14, 'Linitx');
 
 --
 -- Indexes for dumped tables
