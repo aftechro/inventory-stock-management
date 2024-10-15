@@ -25,14 +25,26 @@ SET time_zone = "+00:00";
 
 
 CREATE TABLE `quotes` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `quote_number` varchar(50) NOT NULL,
-  `customer_id` int NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `account_number` varchar(50) NOT NULL,
+  `company_name` varchar(255) NOT NULL,
+  `address` text NOT NULL,
+  `city` varchar(100) NOT NULL,
+  `state` varchar(100),
+  `zip` varchar(20) NOT NULL,
+  `country` varchar(100),
+  `email` varchar(255) NOT NULL,
+  `landline` varchar(20) NOT NULL,
+  `mobile` varchar(20),
+  `website` varchar(255),
+  `contact_name` varchar(255) NOT NULL,
+  `contact_email` varchar(255) NOT NULL,
+  `contact_phone` varchar(20) NOT NULL,
+  `contact_position` enum('company owner', 'accounts dept.', 'nominated contact', 'other') NOT NULL,
   `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
-  `total` decimal(10,2) NOT NULL,
-  PRIMARY KEY (`id`),
-  FOREIGN KEY (`customer_id`) REFERENCES `customers`(`id`)
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
 
 
 
