@@ -161,7 +161,7 @@ $optionString = implode(', ', $optionsArray); // Now you can safely use implode
         <thead class="table-dark">
             <tr>
                 <th style="width: 25%;">Account</th>
-                <th style="width: 20%;">Main company</th>
+                <th style="width: 20%;">Company</th>
                 <th style="width: 20%;">Contact Info</th>
                 <th style="width: 25%;">Address</th>
                 <th style="width: 10%;">Options</th>
@@ -201,6 +201,7 @@ $optionString = implode(', ', $optionsArray); // Now you can safely use implode
                     ?>
                     <br>
                     <a href="#" class="reference-link" data-reference="<?= htmlspecialchars($customer['reference']) ?>">Notes/Reference</a>
+
                 </td>
                 <td class="text-center align-middle">
                     <button class="btn btn-warning btn-sm edit-btn" 
@@ -237,16 +238,16 @@ $optionString = implode(', ', $optionsArray); // Now you can safely use implode
     </table>
 </div>
             
-<!-- Modal for Reference Notes -->
-<div class="modal fade" id="referenceModal" tabindex="-1" aria-labelledby="referenceModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+<!-- Notes Reference Modal -->
+<div class="modal fade" id="notesModal" tabindex="-1" aria-labelledby="notesModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered"> <!-- Center the modal -->
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="referenceModalLabel">Reference / Notes</h5>
+                <h5 class="modal-title" id="notesModalLabel">Notes / Reference</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p id="referenceContent"></p>
+                <p id="notesContent">No notes available.</p> <!-- Content will be set dynamically -->
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -254,6 +255,8 @@ $optionString = implode(', ', $optionsArray); // Now you can safely use implode
         </div>
     </div>
 </div>
+
+
 
 <script>
 // Search functionality
@@ -274,15 +277,20 @@ document.getElementById('searchInput').addEventListener('keyup', function() {
     });
 });
 
-// Handle reference link click
+// Update the modal content and show the modal
 document.querySelectorAll('.reference-link').forEach(link => {
-    link.addEventListener('click', function() {
-        const reference = this.dataset.reference;
-        document.getElementById('referenceContent').innerText = reference;
-        const referenceModal = new bootstrap.Modal(document.getElementById('referenceModal'));
-        referenceModal.show();
+    link.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default link behavior
+
+        const reference = this.dataset.reference; // Get reference from data attribute
+        document.getElementById('notesContent').innerText = reference || "No notes available."; // Set the content
+
+        // Show the modal using Bootstrap's Modal API
+        const notesModal = new bootstrap.Modal(document.getElementById('notesModal'));
+        notesModal.show();
     });
 });
+
 </script>
 
 
