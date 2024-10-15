@@ -23,6 +23,34 @@ SET time_zone = "+00:00";
 
 -- --------------------------------------------------------
 
+CREATE TABLE `customers` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `account_number` varchar(50) NOT NULL,
+  `company_name` varchar(100) NOT NULL,
+  `address` text NOT NULL,
+  `city` varchar(50) NOT NULL,
+  `state` varchar(50),
+  `zip` varchar(20) NOT NULL,
+  `country` varchar(50),
+  `email` varchar(100) NOT NULL,
+  `landline` varchar(20) NOT NULL,
+  `mobile` varchar(20),
+  `website` varchar(100),
+  `contact_name` varchar(100) NOT NULL,
+  `contact_email` varchar(100) NOT NULL,
+  `contact_phone` varchar(20) NOT NULL,
+  `contact_position` ENUM('company owner', 'accounts dept.', 'nominated contact', 'other') NOT NULL,
+  `options` SET('indexing', 'allow quote', 'allow invoice'),
+  `reference` text,
+  `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
+  `deleted_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
+
+
+
+
+
 --
 -- Table structure for table `accounts`
 --
