@@ -161,7 +161,7 @@ $optionString = implode(', ', $optionsArray); // Now you can safely use implode
         <thead class="table-dark">
             <tr>
                 <th style="width: 25%;">Account</th>
-                <th style="width: 20%;">Company</th>
+                <th style="width: 20%;">Main company</th>
                 <th style="width: 20%;">Contact Info</th>
                 <th style="width: 25%;">Address</th>
                 <th style="width: 10%;">Options</th>
@@ -183,7 +183,7 @@ $optionString = implode(', ', $optionsArray); // Now you can safely use implode
                 </td>
                 <td>
                     <i class="fas fa-user"></i> <strong><?= htmlspecialchars($customer['contact_name']) ?></strong><br>
-                    <small><?= htmlspecialchars($customer['contact_position']) ?></small>
+                    <small><?= htmlspecialchars($customer['contact_position']) ?></small><br>
                     <i class="fas fa-phone"></i> <a href="tel:<?= htmlspecialchars($customer['contact_phone']) ?>"><?= htmlspecialchars($customer['contact_phone']) ?></a><br>
                     <i class="fas fa-envelope"></i> <a href="mailto:<?= htmlspecialchars($customer['contact_email']) ?>"><?= htmlspecialchars($customer['contact_email']) ?></a>
                 </td>
