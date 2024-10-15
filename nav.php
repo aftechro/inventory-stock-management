@@ -37,7 +37,8 @@ $username = htmlspecialchars($_SESSION['username']);
                             <i class="fas fa-tools"></i> Manage
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="products.php">Manage Products</a></li>
+    	                    <li><a class="dropdown-item" href="customers.php">Customers</a></li>
+                            <li><a class="dropdown-item" href="products.php">Products</a></li>
                             <li><a class="dropdown-item" href="sql_import.php">Import Products</a></li>
                             <li><a class="dropdown-item" href="categories.php">Categories</a></li>
                             <li><a class="dropdown-item" href="vendors.php">Vendors</a></li>
