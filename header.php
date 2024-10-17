@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="assets/css/jquery-ui.css">  
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" >
 
-
+    <!-- Scripts moved from footer.php -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
 
 
 
