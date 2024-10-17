@@ -1,11 +1,9 @@
 
 
     <script src="assets/js/bootstrap4.5.2.bundle.min.js"></script>	
-	<script src="assets/js/bootstrap5.3.bundle.min.js"></script>
+    <script src="assets/js/bootstrap5.3.bundle.min.js"></script>
     <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/jquery-ui.minjs"></script>
-    <script src="assets/js/popper.min.js"></script>
+
 
 
     <script>
