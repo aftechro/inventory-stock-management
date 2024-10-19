@@ -172,9 +172,18 @@ $optionString = implode(', ', $optionsArray); // Now you can safely use implode
             <?php while ($customer = $customers->fetch_assoc()): ?>
             <tr>
                 <td class="align-middle" style="text-align: left;">
-                    <strong class="badge bg-primary"><?= htmlspecialchars($customer['account_number']) ?></strong><br>
-                    <strong><?= htmlspecialchars($customer['company_name']) ?></strong>
+                    <strong>
+                        <a href="customer.php?id=<?= $customer['id'] ?>" class="text-primary text-decoration-none">
+                            <span class="badge bg-primary"><?= htmlspecialchars($customer['account_number']) ?></span>
+                        </a>
+                    </strong><br>
+                    <strong>
+                        <a href="customer.php?id=<?= $customer['id'] ?>" class="text-dark text-decoration-none">
+                            <?= htmlspecialchars($customer['company_name']) ?>
+                        </a>
+                    </strong>
                 </td>
+
                 <td>
                     <i class="fas fa-phone"></i> <a href="tel:<?= htmlspecialchars($customer['landline']) ?>"><?= htmlspecialchars($customer['landline']) ?></a><br>
                     <i class="fas fa-mobile-alt"></i> <a href="tel:<?= htmlspecialchars($customer['mobile']) ?>"><?= htmlspecialchars($customer['mobile']) ?></a><br>
