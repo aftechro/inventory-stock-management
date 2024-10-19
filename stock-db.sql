@@ -57,6 +57,8 @@ CREATE TABLE quote_items (
     FOREIGN KEY (quote_id) REFERENCES quotes(id) ON DELETE CASCADE
 );
 
+ALTER TABLE quotes ADD COLUMN status ENUM('Pending', 'Approved', 'Rejected', 'Completed') DEFAULT 'Pending';
+
 
 CREATE TABLE `customers` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
