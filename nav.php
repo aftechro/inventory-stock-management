@@ -26,12 +26,12 @@ $username = htmlspecialchars($_SESSION['username']);
                 </li>
                 <li class="nav-item">
                     <a class="nav-link <?= ($current_page == 'stock.php') ? 'active' : '' ?>" href="stock.php">
-                        <i class="fas fa-file-alt"></i> Stock
+                        <i class="fas fa-database"></i> Stock
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link <?= ($current_page == 'quote.php') ? 'active' : '' ?>" href="quote.php">
-                        <i class="fas fa-database"></i> Quote
+                        <i class="fas fa-file-alt"></i> Quote
                     </a>
                 </li>
 
