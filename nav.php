@@ -26,9 +26,16 @@ $username = htmlspecialchars($_SESSION['username']);
                 </li>
                 <li class="nav-item">
                     <a class="nav-link <?= ($current_page == 'stock.php') ? 'active' : '' ?>" href="stock.php">
-                        <i class="fas fa-database"></i> Stock
+                        <i class="fas fa-file-alt"></i> Stock
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link <?= ($current_page == 'quote.php') ? 'active' : '' ?>" href="quote.php">
+                        <i class="fas fa-database"></i> Quote
+                    </a>
+                </li>
+
+
 
                 <!-- Admin Section: Manage Dropdown -->
                 <?php if ($is_admin): ?>
@@ -37,7 +44,7 @@ $username = htmlspecialchars($_SESSION['username']);
                             <i class="fas fa-tools"></i> Manage
                         </a>
                         <ul class="dropdown-menu">
-    	                    <li><a class="dropdown-item" href="customers.php">Customers</a></li>
+                			<li><a class="dropdown-item" href="customers.php">Customers</a></li>
                             <li><a class="dropdown-item" href="products.php">Products</a></li>
                             <li><a class="dropdown-item" href="sql_import.php">Import Products</a></li>
                             <li><a class="dropdown-item" href="categories.php">Categories</a></li>
